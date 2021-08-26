@@ -1,0 +1,75 @@
+body {
+  background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2021/07/CSS-background-gradient-featured.jpg);
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+.formLayout {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  border: white solid 0.1rem;
+  width: 42rem;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#description {
+  text-decoration: underline rgb(54, 52, 52);
+  font-size: 2rem;
+  color: rgb(255, 120, 0);
+}
+.questions {
+  color: rgb(255, 120, 0);
+  font-size: 1.5rem;
+}
+.formatInput {
+  padding-left: 1rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(54, 52, 52);
+  width: 80%;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.formatSelect {
+  color: rgb(255, 255, 255);
+  background-color: rgb(54, 52, 52);
+  width: 83%;
+  height: 2rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+
+  border: solid 2px;
+  border-color: rgb(24, 22, 22) rgb(94, 92, 92) rgb(94, 92, 92) rgb(24, 22, 22);
+}
+span {
+  font-size: 1rem;
+}
+.checkFormat {
+  color: rgb(54, 52, 52);
+  font-size: 1.5rem;
+  padding-bottom: 0.3rem;
+}
+#submit {
+  color: rgb(255, 120, 0);
+  background-color: rgb(54, 52, 52);
+  font-size: 2rem;
+}
+
+#center {
+  margin-left: -1rem;
+  margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+}
+textarea {
+  width: 80%;
+  background-color: rgb(54, 52, 52);
+  color: white;
+  font-size: 1rem;
+  height: 6rem;
+}
+.underline {
+  text-decoration: underline white 0.05rem;
+}
