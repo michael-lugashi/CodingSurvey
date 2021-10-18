@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CodePenSurvey.css" />
+  </head>
+  <body>
+    <h1 id="title">Coding Survey</h1>
+    <div class="formLayout">
+      <p id="description">This survey is to gather your coding prefrences...</p>
+      <form id="survey-form">
+        <label class="questions" id="name-label" for="name"
+          >Full Name:
+          <br />
+          <input
+            class="formatInput"
+            id="name"
+            type="text"
+            name="name"
+            required
+            placeholder="John Smith"
+        /></label>
+        <br />
+        <br />
+
+        <label class="questions" id="email-label" for="email"
+          >Email:
+          <br />
+          <input
+            class="formatInput"
+            id="email"
+            type="email"
+            name="email"
+            required
+            placeholder="john.smith@gmail.com"
+        /></label>
+        <br />
+        <br />
+
+        <label class="questions" id="number-label" for="expierience"
+          >How many years have you coded? <span>(if less than one enter 0)</span
+          ><br /><input
+            id="number"
+            class="formatInput"
+            type="number"
+            min="0"
+            max="70"
+            name="expierience"
+            placeholder="If less than one enter 0"
+        /></label>
+        <br />
+        <br />
+
+        <label class="questions" for="favorite"
+          >Favorite Programing language:
+          <select id="dropdown" name="favorite" class="formatSelect">
+            <option disabled selected value>
+              <span style="color: rgb(110, 110, 110)">Select a language</span>
+            </option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">Javascript</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+          </select>
+        </label>
+        <br />
+
+        <div>
+          <p class="questions underline">What is computer science to you?</p>
+          <label  class="checkFormat">
+            <input
+              checked
+              type="radio"
+              name="to-you"
+              required
+              value="hobby"
+            />Hobby</label
+          >
+          </label>
+          <br />
+          <label  class="checkFormat">
+              <input type="radio" name="to-you" value="carreer" />Carreer</label
+          >
+          <br />
+          <label  class="checkFormat"
+            ><input type="radio" name="to-you" value="passion" />Passion</label
+          >
+          <br />
+          <label  class="checkFormat"
+            ><input type="radio" name="to-you" value="Nothing" />Nothing</label
+          >
+        </div>
+        <br />
+
+        <div>
+          <p class="questions underline">
+            What platforms do you code with?
+            <span>(Check all that apply)</span>
+          </p>
+
+          <label class="checkFormat"
+            ><input
+              name="platform"
+              value="visual studio code"
+              type="checkbox"
+            />Visual Studio Code</label
+          >
+          <br />
+          <label class="checkFormat"
+            ><input
+              name="platform"
+              value="codepen"
+              type="checkbox"
+            />CodePen</label
+          >
+          <br />
+          <label class="checkFormat"
+            ><input
+              name="platform"
+              value="netbeans"
+              type="checkbox"
+            />NetBeans</label
+          >
+          <br />
+          <label class="checkFormat"
+            ><input
+              name="platform"
+              value="codesters"
+              type="checkbox"
+            />Codesters</label
+          >
+        </div>
+        <br />
+
+        <div>
+          <p class="questions underline">
+            What are unique coding platforms or references that you use?
+          </p>
+          <textarea
+            id="comments"
+            name="comment"
+            placeholder="Answer here..."
+          ></textarea>
+        </div>
+        <div id="center">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
